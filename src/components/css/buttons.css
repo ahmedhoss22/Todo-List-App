@@ -1,0 +1,23 @@
+#piority{
+    min-width: '200px'!important;
+     width:'400px' !important;
+}
+.task{
+    margin: 5px 0 0 0 !important;
+}
+@media screen and (max-width:600px) {
+    .stack{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .task{
+        margin: 5px !important;
+        font-size: .5rem !important;
+        width: 97% !important;
+    }
+    #piority{
+        width: 90% !important;
+        margin: 0 !important;
+        min-width: initial;
+    }
+}
